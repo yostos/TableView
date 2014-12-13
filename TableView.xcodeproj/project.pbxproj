@@ -12,6 +12,7 @@
 		F455EDC11A3CD0DA0080872C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F455EDC01A3CD0DA0080872C /* Images.xcassets */; };
 		F455EDC41A3CD0DA0080872C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F455EDC21A3CD0DA0080872C /* Main.storyboard */; };
 		F455EDD01A3CD0DA0080872C /* TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455EDCF1A3CD0DA0080872C /* TableViewTests.swift */; };
+		F455EDDA1A3CD1EE0080872C /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455EDD91A3CD1EE0080872C /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		F455EDC91A3CD0DA0080872C /* TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F455EDCE1A3CD0DA0080872C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F455EDCF1A3CD0DA0080872C /* TableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTests.swift; sourceTree = "<group>"; };
+		F455EDD91A3CD1EE0080872C /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				F455EDBE1A3CD0DA0080872C /* ViewController.swift */,
 				F455EDC01A3CD0DA0080872C /* Images.xcassets */,
 				F455EDC21A3CD0DA0080872C /* Main.storyboard */,
+				F455EDD91A3CD1EE0080872C /* Song.swift */,
 				F455EDBA1A3CD0DA0080872C /* Supporting Files */,
 			);
 			path = TableView;
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F455EDDA1A3CD1EE0080872C /* Song.swift in Sources */,
 				F455EDBF1A3CD0DA0080872C /* ViewController.swift in Sources */,
 				F455EDBD1A3CD0DA0080872C /* AppDelegate.swift in Sources */,
 			);
